@@ -1,0 +1,76 @@
+#navigation {
+    height: 120px;
+    width: 100vw;
+    background-color: $color-one;
+
+    .menu2 {
+        position: relative;
+        top: 50%;
+        transform: translate(0%, 22.5%);
+    }
+
+    nav {
+        background: none;
+        width: 100%;
+        padding-right: 0;
+
+        ul {
+            li a {
+                color: $color-three;
+                font-weight: 700;
+                font-size: 0.917em;
+            }
+        }
+
+        .dropdown-menu {
+            background: rgba(184, 184, 184, 0.67);
+            border-radius: 0;
+            border: none;
+
+            .dropdown-divider {
+                border-top: 2px solid $color-three;
+            }
+
+            a {
+                color: $color-three;
+            }
+        }
+
+        .dropdown-item:focus, .dropdown-item:hover {
+            background-color: $color-two;
+            color: $color-four;
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        #navbarSupportedContent {
+            margin-top: 30px;
+            z-index: 2;
+        }
+
+        .navbar-collapse.collapse.show {
+            background: $color-one;
+        }
+
+        .navbar-toggler:not(:disabled):not(.disabled) {
+            background: $color-two;
+            border-radius: 0;
+        }
+    }
+
+    .phone-contact {
+        position: relative;
+        right: .5rem;
+        top: 32px;
+        font-size: 0.984em;
+        font-weight: 700;
+        float: right;
+
+        img {
+            margin-right: 15px;
+            margin-top: -3px;
+        }
+    }
+}

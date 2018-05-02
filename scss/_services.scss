@@ -1,0 +1,52 @@
+#services {
+    background: $color-six;
+    min-height: 320px;
+
+    h2 {
+        font-size: 1.587em;
+        width: 100%;
+        color: $color-four;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .tool {
+        max-width: 340px;
+        height: 230px;
+        background: $color-one;
+
+        .ribbon {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+        }
+    }
+
+    .tool-inner {
+        height: 190px;
+        width: 220px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .tool-img {
+            width: 215px;
+            height: 130px;
+            background: $color-five;
+            margin: 0 auto 10px auto;
+        }
+
+        h3 {
+            font-size: 1.587em;
+            width: 100%;
+            text-align: center;
+        }
+
+        p {
+            font-size: 0.938em;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

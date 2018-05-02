@@ -1,0 +1,26 @@
+#header {
+    .jumbotron {
+        background: transparent;
+        color: $color-four;
+        max-height: 200px;
+        text-align: left;
+        position: relative;
+        left: 50px;
+        padding: 1rem 2rem;
+
+        h1 {
+            font-size: 1.3em;
+            font-weight: 500;
+            max-width: 350px;
+            line-height: 1.5em;
+        }
+
+        p {
+            font-size: .84em;
+            font-weight: 300;
+            font-style: italic;
+            max-width: 205px;
+            margin-bottom: 0.5rem;
+        }
+    }
+}

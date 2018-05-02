@@ -1,0 +1,17 @@
+@media(max-width: 1199px){
+    .tool {
+        margin-bottom: 20px;
+    }
+
+    #news .news-item {
+        height: 215px;
+        width: 33vw;
+    }
+}
+
+@media(max-width: 991px){
+    #navigation .phone-contact {
+        right: 5em;
+        top: 50px;
+    }
+}
